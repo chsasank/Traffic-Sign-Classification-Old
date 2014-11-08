@@ -1,7 +1,7 @@
 %% Uses Images instead of HOG
 %% Train LDA 
-load data.mat
-m = mean(images);
+readImages
+readTestImages
 K = 43;
 l = LDA(images,labels,K);
 

@@ -1,8 +1,8 @@
 %% Read all HOG data
-hog = zeros(39209,2916);
+hog = zeros(39209,1568);
 labels = zeros(39209,1);
 i = 1;
-sBasePath = '/users/sasank/test/dip/GTSRB/Training/HOG/HOG_03'; 
+sBasePath = '/users/sasank/test/dip/GTSRB/Training/HOG/HOG_02'; 
 h = waitbar(i/12630,'Loading Training Dataset');
 for nNumFolder = 0:42
     sFolder = num2str(nNumFolder, '%05d');

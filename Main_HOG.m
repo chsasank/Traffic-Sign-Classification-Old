@@ -1,7 +1,9 @@
 %% Used HOG data
 %% Build LDA object
 clear
-load data.mat
+%load data.mat
+readHOG
+readTestHOG
 K = 43;
 l = LDA(hog,labels,K);
 
