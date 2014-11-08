@@ -22,13 +22,13 @@ We used:
 
 3. Random Forests (in python)
 
-algorithms to classify 
+algorithms to classify: 
 
-* Raw intensity values from Images
+Raw intensity values from Images
 
 <a href="url"><img src="test.png" height="100" ></a>
 
-* Histogram of Oriented Gradients descriptors
+Histogram of Oriented Gradients descriptors
 
 <a href="url"><img src="test HOG.png" height="100" ></a>
 
