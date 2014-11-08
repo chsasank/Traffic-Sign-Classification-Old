@@ -5,7 +5,8 @@ Database used is German Traffic Sign Database, available for download here: http
 
 Some Sample Images:
 ------------------
-Images from this database are very life-like and are challenging to classify. They are of different sizes and differently illuminated etc.
+Images from this database are very life-like and are challenging to classify. 
+They are of different sizes and differently illuminated etc.
 
 ![](/Report/b.png)
 ![](/Report/c.png)
@@ -23,9 +24,16 @@ We used:
 
 algorithms to classify 
 
-1. Raw intensity values from Images
+* Raw intensity values from Images
 
-2. Histogram of Oriented Gradients descriptors
+<a href="url"><img src="test.png" height="100" ></a>
+
+* Histogram of Oriented Gradients descriptors
+
+<a href="url"><img src="test HOG.png" height="100" ></a>
+
+
+
 
 To get these codes working, point to the correct directory containing dataset in readHOG.m, readTestHOG.m, readImages.m, readTestImages.m files
 
